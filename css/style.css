@@ -88,3 +88,10 @@ footer{
   text-transform: uppercase;
   background: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 34%, rgba(73,165,191,1) 100%);
 }
+
+/* ===================================================================================== */
+
+.modal .btn-block{
+  color: #fff;
+  background: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 34%, rgba(73,165,191,1) 100%);
+}
