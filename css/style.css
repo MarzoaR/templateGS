@@ -1,0 +1,90 @@
+section,
+footer{
+  padding: 40px 0;
+}
+
+/* ================================================================== */
+
+#integration h3{
+  padding: 40px 0;
+}
+
+#integration h4{
+  padding: 40px 0 20px;
+}
+#integration .container .row div{
+  padding: 20px 30px;
+}
+#integration img{
+  height: 100px;
+}
+
+
+/* ================================================================== */
+
+#travel{
+  position: relative;
+  background: #f7f7f7;
+  overflow: hidden;
+}
+#travel p,
+#commerce p{
+  padding-top: 30px;
+}
+#travel img,
+#commerce img{
+  /* width: 80%; */
+  height: 90%;
+}
+.center-flex{
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+}
+
+#travel::before{
+  content: '';
+  position: absolute;
+  top: -180px;
+  left: -202px;
+  height: 200px;
+  width: 120%;
+  background: #fff;
+  transform: rotate(-6deg);
+}
+
+#travel::after{
+  content: '';
+  position: absolute;
+  bottom: -180px;
+  right: -202px;
+  height: 200px;
+  width: 120%;
+  background: #fff;
+  transform: rotate(-6deg);
+}
+
+/* ====================================================================== */
+
+#speak img{
+  width: 90%;
+}
+
+/* ====================================================================== */
+
+#getfree p{
+  padding: 20px 0;
+}
+#getfree span{
+  display: block;
+  height: 100px;
+  width: 100%;
+  line-height: 100px;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 34%, rgba(73,165,191,1) 100%);
+}
